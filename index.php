@@ -1,15 +1,15 @@
 <?php
-//error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
+error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 //error_reporting(E_ALL|E_STRICT);
 //date_default_timezone_set('Europe/London');
 
-//date_default_timezone_set('America/Chicagos');
+date_default_timezone_set('America/Chicagos');
 
-error_reporting(8191);
-ini_set("display_errors",1);
+//error_reporting(8191);
+ini_set("display_errors",0);
 
-//ini_set('open_basedir','none');
-define('DEVICE','DESKTOP');
+ini_set('open_basedir','none');
+
 set_include_path('.' . PATH_SEPARATOR . './ZendFramework/library/'
 	 . PATH_SEPARATOR . './library/'
 	 . PATH_SEPARATOR . './application/models/'
@@ -36,22 +36,22 @@ Zend_Registry::set('store_id', $store_id);
 
 // setup controller
 require_once 'Zend/Controller/Plugin/Seo.php';
-//require_once 'Zend/Controller/Plugin/MobileSwitcher.php';
+require_once 'Zend/Controller/Plugin/MobileSwitcher.php';
 
 // MEMCACHED SECTION START
 // configure caching backend strategy
 $oBackend = new Zend_Cache_Backend_Memcached(
 	array(
 		'servers' => array( array(
-			'host' => 'tfsource.local',
-			'port' => '80'
+			'host' => '127.0.0.1',
+			'port' => '11211'
 		) ),
 		'compression' => true
 ) );
 
 // configure caching logger
 $oCacheLog =  new Zend_Log();
-$oCacheLog->addWriter( new Zend_Log_Writer_Stream( 'D:\xampp\htdocs\git\tfsource\pr-memcache.log' ) );
+$oCacheLog->addWriter( new Zend_Log_Writer_Stream( 'file:///tmp/pr-memcache.log' ) );
 
 // configure caching frontend strategy
 $oFrontend = new Zend_Cache_Core(
@@ -74,7 +74,7 @@ $frontController = Zend_Controller_Front::getInstance();
 $frontController->throwExceptions(false);
 $frontController->setControllerDirectory('./application/controllers');
 $frontController->registerPlugin(new Zend_Controller_Plugin_Seo($frontController->getRouter()));
-//$frontController->registerPlugin(new Zend_Controller_Plugin_MobileSwitcher($frontController->getRouter()));
+$frontController->registerPlugin(new Zend_Controller_Plugin_MobileSwitcher($frontController->getRouter()));
 
 // run!
 $frontController->dispatch();
