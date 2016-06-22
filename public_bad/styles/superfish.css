@@ -1,0 +1,335 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sf-menu ul {
+  position: absolute;
+  top: -999em;
+}
+
+.sf-menu ul li {
+  width: 100%;
+}
+
+.sf-menu li:hover {
+  visibility: inherit;/* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li {
+  float: left;
+  position: relative;
+}
+
+.sf-menu a {
+  display: block;
+  position: relative;
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+  left: 0;
+  z-index: 999;
+}
+
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+  top: -999em;
+}
+
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+  top: 0;
+}
+
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+  top: -999em;
+}
+
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
+  top: 0;
+}
+/*   Main Navigation   */
+
+#main-nav {
+  background: #d5d5d5;
+  height: 36px;
+  padding-top: 9px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  clear: both;
+  margin: 0 10px;
+  text-align: center;
+  font-size: .92em;
+}
+
+#main-nav li {
+  display: block;
+  padding-left: 2px;
+  height: 30px;
+  background: url(../images/main-nav-li-bg.gif) 0 0 repeat-y;
+}
+
+#main-nav li#all {
+  padding-left: 0;
+  width: 103px;
+  background: none;
+}
+
+#main-nav li#custom {
+  width: 142px;
+}
+
+#main-nav li#preorders {
+  width: 97px;
+}
+
+#main-nav li#japanese {
+  width: 123px;
+}
+
+#main-nav li#hasbro {
+  width: 123px;
+}
+
+#main-nav li#g1 {
+  width: 172px;
+}
+
+#main-nav li#botcon {
+  width: 101px;
+}
+
+#main-nav li#clothing {
+  width: 95px;
+}
+
+#main-nav li a {
+  display: block;
+  padding: 2px 12px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 28px;
+  font-size: 0.92em;
+  text-shadow: 1px 1px 0 #ededed;
+  color: #545454;
+  margin: 0 6px;
+}
+
+#main-nav li#preorders a {
+  line-height: 28px;
+}
+
+/*#main-nav li a:hover, */#main-nav li.sfHover a {
+  background: #fff;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-radius: 5px 5px 0 0;
+  margin: -4px 6px;
+  padding: 6px 12px 4px;
+}
+
+#main-nav ul {
+  top: 34px;
+  left: 0;
+  border: 1px solid #d5d5d5;
+  border-top: none;
+  background: #fff;
+  text-align: left;
+  width: 360px;
+  padding: 10px;
+}
+
+#main-nav li#all div.left {
+  width: 750px;
+}
+
+#main-nav li#japanese ul, #main-nav li#g1 ul {
+  width: 545px;
+}
+
+#main-nav li#g1 ul, #main-nav li#botcon ul, #main-nav li#clothing ul {
+  left: auto !important;
+  right: 0;
+}
+
+#main-nav li#g1 div.left {
+  width: 365px;
+}
+
+#main-nav li#g1 ul.cat {
+  margin-bottom: 10px;
+}
+
+#main-nav li#all ul {
+  width: 948px;
+  margin-bottom: 10px;
+}
+
+#main-nav ul li {
+  padding: 0;
+  background: none;
+  height: auto;
+  font-size: 1.09em;
+}
+
+#main-nav ul.cat {
+  position: relative;
+  display: inline-block;
+  width: 175px !important;
+  margin: 5px 5px 0 0;
+  vertical-align: top;
+  padding: 0;
+  border: none;
+  top: auto;
+  left: auto;
+  background: transparent;
+}
+
+#main-nav ul.cat li {
+  padding: 0;
+  height: auto;
+  line-height: 1em;
+  margin-bottom: 5px;
+  font-size: 1.09em;
+}
+
+#main-nav ul.cat li h3, #main-nav #manufacturers h3 {
+  font-family: 'BebasNeueRegular', sans-serif;
+  font-size: 1.37em;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+#main-nav #manufacturers h3 {
+  font-size: 1.5em;
+}
+
+#main-nav .right ul.cat h3 {
+  color: #932c2d;
+}
+
+#main-nav .right ul.cat img {
+  margin: 10px auto 0;
+  display: block;
+}
+
+#main-nav ul.cat li a {
+  padding: 0;
+  margin: 0 0 0 5px;
+  text-transform: none;
+  color: #333333;
+  height: auto;
+  font-weight: normal;
+  background: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none;
+}
+
+#main-nav ul.cat li a:hover {
+  color: #972d2d;
+}
+
+#main-nav ul.cat li a strong {
+  font-size: 1.09em;
+}
+
+#main-nav #manufacturers {
+  clear: both;
+  padding: 10px;
+  background: #eeeeee;
+}
+
+#main-nav #manufacturers ul {
+  width: auto !important;
+  margin-bottom: 0;
+}
+
+#main-nav #manufacturers li {
+  float: left;
+  width: 150px;
+}
+
+#main-nav #manufacturers li a {
+  margin-left: 0;
+}
+
+#main-nav li#preorders li a {
+  line-height: normal;
+}
+/*   Login/Register dropdowns   */
+
+#acc-nav {
+  float: right;
+  padding: 1px 10px;
+}
+
+#acc-nav li {
+  float: left;
+  position: relative;
+}
+
+#acc-nav li:before {
+  content: "\007C ";
+  float: left;
+  margin: 4px 0 0;
+  display: block;
+}
+
+#acc-nav li:first-child:before {
+  content: "";
+  float: none;
+  margin: 0;
+}
+
+#acc-nav a {
+  margin: 0 3px 0 10px;
+  line-height: 23px;
+  padding: 0 5px;
+  display: block;
+}
+
+/*#acc-nav li#login a:hover, #acc-nav li#register a:hover,*/ #acc-nav li#login.sfHover a, #acc-nav li#register.sfHover a {
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+#acc-nav li li {
+  float: none;
+}
+
+#acc-nav li#login ul {
+  width: 180px;
+  background: rgba(0, 0, 0, .8);
+  -moz-border-radius: 0 5px 5px 5px;
+  -webkit-border-radius: 5px;
+  -webkit-border-top-left-radius: 0;
+  border-radius: 0 5px 5px 5px;
+  padding: 10px;
+}
+
+#acc-nav li#register ul {
+  width: 280px;
+  background: rgba(0, 0, 0, .8);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#acc-nav li#login:hover ul, #acc-nav li#login.sfHover ul {
+  top: 23px;
+  left: 10px;
+}
+
+#acc-nav li#register:hover ul, #acc-nav li#register.sfHover ul {
+  top: 23px;
+  left: -95px;
+}

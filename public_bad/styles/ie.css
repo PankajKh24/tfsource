@@ -1,0 +1,38 @@
+img{max-width:auto;}
+.col.lastCol{margin-right:0}
+
+#main-nav, #main-nav li a:hover, #main-nav li.sfHover a, #main-nav ul.cat li a, #thumbNav, .red-btn, #login-form fieldset, #acc-nav li#register input,
+#bubble, #search, #newsletter input, #acc-nav li#login a:hover, #acc-nav li#register a:hover, #acc-nav li#login.sfHover a, #acc-nav li#register.sfHover a {
+  position: relative;
+  behavior: url(PIE.htc);
+}
+.anythingFader ul li .caption {background: url(../images/caption-bg.png);}
+#acc-nav li#login a:hover, #acc-nav li#register a:hover, #acc-nav li#login.sfHover a, #acc-nav li#register.sfHover a {background: url(../images/acc-nav-ie-bg.png);}
+
+
+#acc-nav li#login ul {background:url(../images/login-bg.png) 0 0 no-repeat;width:177px;height:106px;}
+#acc-nav li#register ul {background: url(../images/register-bg.png) 0 0 no-repeat;height: 187px}
+#acc-nav li#login input[type=password], #acc-nav li#register input[type=password] {font-family: Arial, Helvetica}
+
+#sec_menu > li:hover > a, #sec_menu > li > a:hover, #sec_menu > li > ul{background:#000}
+
+#breadcrumb li{position:relative; padding-right:20px}
+#breadcrumb li:after{display:block; position:absolute; top:10px; right:0}
+
+#sl_hold{overflow:auto}
+.modal_overlay, #quick_shop, #add_review, #static_lightbox, .gallery_show{background:url(../images/black50.png)}
+.thumbnails a img{max-width:52px}
+.gallery_show_hold img{max-width:980px}
+
+
+.carousel li .price{font-size:14px}
+.carousel li .price strike span{font-size:11px}
+.carousel li .price > span{font-size:11px}
+
+.tfs_blog_btn{width:110px; font-size:10px}
+
+#cart_overview.scroll_float{border:1px solid #f1f1f1}
+
+#account_summary > div.lastCol{border-right:none; padding-right:0}
+
+#static_page img.left{margin:0 30px 10px 0}

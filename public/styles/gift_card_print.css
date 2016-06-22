@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/arial_narrow-webfont.eot');
+    src: url('../fonts/arial_narrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_narrow-webfont.woff') format('woff'),
+         url('../fonts/arial_narrow-webfont.svg#arial_narrow_italic-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/arial_narrow_bold-webfont.eot');
+    src: url('../fonts/arial_narrow_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_narrow_bold-webfont.woff') format('woff'),
+         url('../fonts/arial_narrow_bold-webfont.svg#arial_narrow_italic-webfont') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/arial_narrow_italic-webfont.eot');
+    src: url('../fonts/arial_narrow_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_narrow_italic-webfont.woff') format('woff'),
+         url('../fonts/arial_narrow_italic-webfont.svg#arial_narrow_italic-webfont') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../fonts/arial_narrow_bold_italic-webfont.eot');
+    src: url('../fonts/arial_narrow_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arial_narrow_bold_italic-webfont.woff') format('woff'),
+         url('../fonts/arial_narrow_bold_italic-webfont.svg#arial_narrow_bold_italic-webfont') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+html{background:none; height:100%}
+body{height:100%; min-height:100%; background:none; font-family: 'Arial Narrow'; font-size:14px; color:#000; padding-top:0}
+#print_wrapper{background:#ddd; height:100%}
+
+
+	
+/* ================== PRINT ================== */
+#voucher_display{max-width:502px; padding:40px 20px; margin:0 auto; background:#fff; box-shadow:0 0 8px rgba(0,0,0,0.4)}
+	.gc_style{border:1px solid #f2dedf; border-radius:7px 7px 0 0}
+			.gift_card .img_wrap >img{max-width:100%; border-radius:7px}
+									
+		.gift_card_footer{padding:10px 20px 20px; font-size:17px}
+			.gift_card_footer .price{font-size:25px; font-weight:bold; float:left; line-height:28px}
+			.gift_card_footer .code{text-transform:uppercase; float:right; line-height:28px}
+	.gc_message{padding:20px; border:1px solid #f2dedf;}
+		.gc_message p{font-size:18px; font-weight:bold; margin-bottom:15px}
+		.gc_message >div{min-height:100px; font-size:16px; line-height:22px}
+
+
+

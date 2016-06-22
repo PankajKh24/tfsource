@@ -1,0 +1,19 @@
+.sp_ballance_points table{width: 370px;}
+	.sp_ballance_points .current_ballance{width: 146px; background-color: #a32638;}
+	.sp_ballance_points .current_ballance:after {border: 73px solid transparent; border-top: 48px solid #a32638;}
+
+	.sp_faq ul{padding: 10px 0 25px 30px; font-size: 14px; line-height: 16px; list-style: disc;}
+		.jerry_points{ width: 135px; height: 125px; position: relative; float: left;}
+			.jerry_points span.jerry_pt{width: 117px; height: 135px; position: absolute; background-image: url(../images/jerry.png); background-size: cover; background-repeat: no-repeat;float: left; z-index: 5;
+				-webkit-transform: rotateY(180deg);
+				   -moz-transform: rotateY(180deg);
+				    -ms-transform: rotateY(180deg);
+				     -o-transform: rotateY(180deg);
+				        transform: rotateY(180deg);}
+				.jerry_points span.jerry_txt{display: block; position: absolute; width: 215px; height: 65px; top:-55px; left:15px; color: #FFF;font-size: 18px;font-weight: bold;background-color: #a32638; border-radius: 7px; padding: 7px 0 0 30px; z-index: 3;
+					-webkit-box-sizing: border-box;
+					   -moz-box-sizing: border-box;
+					        box-sizing: border-box;}
+					.jerry_points span.jerry_txt:after{content: ''; display:block; width: 30px; height: 20px; top: 65px; right: 15px; position:absolute; background-color:#a32638; -webkit-clip-path: polygon(0 20px, 10px 0, 30px 0); -moz-clip-path: polygon(0 20px, 10px 0, 30px 0); clip-path: polygon(0 20px, 10px 0, 30px 0);}
+
+	#enroll p.enr_message, #reward_points_div p.enr_message { padding:15px; font-size: 14px; line-height: 20px; background: #dbd9cd; color: #111; font-weight: bold; text-align: left; border: none; border-radius: 5px;}

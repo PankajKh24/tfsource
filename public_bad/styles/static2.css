@@ -1,0 +1,24 @@
+/* ===== FAQ PAge ===== */
+.bookmarkBlock{background:#f6f6f6; padding:65px 0 40px; margin:-20px 0 25px; text-align:center;}
+	.bookmarkBlock a{display:inline-block; vertical-align:top; font-size:20px; font-weight:bold; padding:4px 24px 7px; margin-bottom:25px; color:#000;
+		border-bottom:1px solid #bababa; position:relative;}
+	.bookmarkBlock a:hover{text-decoration:none}
+	.bookmarkBlock a:hover:after{content:''; display:block; width:100%; height:3px; background:#900; position:absolute; left:0; bottom:0;}
+
+#faqWrapper{margin-bottom:60px;}
+	#faqWrapper .col:first-child{padding-right:15px;}
+	#faqWrapper .col:last-child{padding-left:15px;}
+	#faqWrapper h4{font-size:24px;}
+	
+	.faqGroup{margin-bottom:40px;}
+	.faqGroup h3{min-width:390px; margin-bottom:25px;}
+	.faqHolder{padding:0 15px 0 60px;}
+	.faqQuest{font-size:30px; font-weight:bold; color:#a32638; margin-bottom:15px; padding-left:40px; position:relative; cursor:pointer;}
+		.faqQuest >span{color:#000; position:absolute; left:0; top:0;}
+	.faqAnsw{padding:15px 15px 15px 60px; display:none; font-size:24px;}
+		.faqAnsw p{font-size:24px; margin-bottom:30px;}
+		.faqAnsw ul{list-style:disc; padding:10px 10px 30px 30px;}
+			.faqAnsw ul li{font-size:22px; margin-bottom:8px;}
+		.faqAnsw ol{padding:10px 10px 30px 30px;}
+			.faqAnsw ol li{font-size:22px; margin-bottom:8px;}
+			

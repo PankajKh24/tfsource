@@ -1,0 +1,66 @@
+/* ---------- HOLIDAY SPREE PROMO ---------- */
+img{max-width:100%; height:auto}
+#holiday_spree_wrap{position:relative; max-width:970px; width:100%; min-height:760px;}
+#contest_sub{max-width:800px; width:100%; margin:0 auto; background-color:#f1f1f1; min-height:760px; padding:0 0 30px}
+#promo_form{background:#fff; border:1px solid #ccc; border-radius:0px; padding:20px 10px; position:relative; max-width:520px; margin:60px auto 75px; box-shadow:0 5px 10px rgba(0,0,0,0.2)}
+	#promo_form fieldset{position:relative; z-index:50}
+	#promo_form fieldset div{/*border-bottom:1px solid #000;*/ margin-bottom:16px}
+	#promo_form .pr_label{font-size:12px; font-weight:normal; color:#000; text-transform:uppercase; display:inline-block; background:#fff; vertical-align:bottom; margin-bottom:-2px; padding:0 6px}
+	#promo_form .pr_text{font-size:14px; color:#646464; font-weight:normal; text-indent:10px; border:none; outline:none; box-shadow:none; position:relative; z-index:100; background:transparent; margin:0; padding:0; -webkit-appearance: none; max-width:100%}
+	#promo_form .pr_check_label{font-size:12px; font-weight:normal; color:#000; display:inline-block;}
+	#promo_form .pr_check{width:18px; height:18px; border:2px solid #000; margin-left:3px}
+	#promo_submit{font-family:BebasNeueRegular, sans-serif; font-size:27px; display:block; width:130px; height:32px; border:1px solid #000; border-radius:5px;
+					background:#901623; color:#fff; margin:40px auto; cursor:pointer;
+					background-image:-moz-linear-gradient(50% 0% -180deg,rgb(164,29,43) 0%,rgb(124,13,25) 100%); 
+					background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(164,29,43)),color-stop(1, rgb(124,13,25)));
+					background-image:-webkit-linear-gradient(-180deg,rgb(164,29,43) 0%,rgb(124,13,25) 100%);
+					background-image:-ms-linear-gradient(-180deg,rgb(164,29,43) 0%,rgb(124,13,25) 100%);
+					background-image:linear-gradient(-180deg,rgb(164,29,43) 0%,rgb(124,13,25) 100%);
+					-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa41d2b,endColorstr=#ff7c0d19,GradientType=0)";
+					filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffa41d2b,endColorstr=#ff7c0d19,GradientType=0);}
+					
+#soc_bar{font-family:BebasNeueRegular, sans-serif; font-size:24px; font-weight:normal; text-align:center}
+	#soc_bar span{display:inline-block; width:27px; height:27px; margin:2px; vertical-align:middle; background:url(../images/promotions/promo_soc_bar.png) 0 0 no-repeat}
+	#soc_bar .pr_fb_icon{background-position:0 0}
+	#soc_bar .pr_tw_icon{background-position:-27px 0}
+	#soc_bar .pr_yt_icon{background-position:-54px 0}
+	
+.logo_img{ position:absolute; bottom:-75px; left:50%; margin-left:-150px;}
+
+/* --- Response --- */
+#thank_you{padding:30px 10px; text-align:center;}
+	#thank_you >h3{font-size:32px; margin-bottom:30px; font-family:BebasNeueRegular, sans-serif;}
+	#thank_you p{font-size:18px; font-style:italic; color:#888;}
+	
+#nl_sign_up{margin-bottom:20px; padding:20px 30px; border:1px solid #ccc; background:#ededed; position:relative}
+		#nl_form p{font:italic 15px Georgia, Times, "Times New Roman", serif; margin-bottom:20px;}
+		#nl_form .red-btn{width:110px; line-height:25px; margin-top:10px}
+		#nl_form .inp_label{display:inline-block; vertical-align:top; text-align:right; width:60px; margin:4px 7px 0 0; line-height:20px}
+		#nl_form .inp_text{width:240px; padding-left:20px; background:#fff url(../images/user-icon.gif) 5px 50% no-repeat}
+	.winner_img{text-align:center}
+		.winner_img img{width:970px}
+		
+#nl_sign_up .processing span{
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -40px;}
+#nl_sign_up .send_thanks{font:italic 15px Georgia, Times, "Times New Roman", serif; height:24px; line-height:24px; margin:41px 0}
+
+
+
+
+
+.w400{width:400px}
+.w330{width:330px}
+.w170{width:170px}
+.w130{width:130px}
+.w100{width:100px}
+.w60{width:60px}

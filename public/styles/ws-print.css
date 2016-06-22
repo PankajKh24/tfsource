@@ -1,0 +1,62 @@
+#wrap{width:100%; max-width:990px}
+.container {width:100%; padding:10px 0}
+#footer{display:none}
+
+
+.bn, h1, h2, h3, h4, h5,
+.shopping_cart tbody tr.cart_type_capt td, #cart_enroll, #checkout_processbar span.step, #checkout_processbar a.step
+{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+
+
+/*--- HEADER Area ---*/
+#banner-wrap, #search-wrap, #rex, #main_menu, #sec_menu, #multys, #cart-wrap{display:none}
+#header h1{position:relative; height:auto; width:auto; top:auto; left:auto; font-size:40px; margin-bottom:20px}
+#header h1 a{text-indent:0; height:auto}
+
+
+/*--- Forms ---*/
+.inp_text, .inp_select{border:none; border-bottom:1px dotted #999; border-radius:0}
+.inp_btn {display:none}
+
+
+
+/*--- CATEGORY ---*/
+#subcats, .page_sort_form, .paging .per_page,
+.cat_product > span.item_outstock, .item_outstock, .item_buy{display:none}
+#breadcrumb li:after{content:'>'; height:34px; margin:1px 7px 0; font-weight:bold}
+#breadcrumb li.last::after{content:''}
+
+
+/*--- CART ---*/
+#wholesale_page #form1.left, #cart_page #form1.left{float:none}
+#wholesale_page #form1.left, #wholesale_page #form1.left table,
+#cart_page #form1.left, #cart_page #form1.left table{width:100%}
+#cart_overview.scroll_float{margin-left:0; position:relative; top:auto; box-shadow:none}
+.cart_nav, .cart_links, #cart_enroll{display:none}
+
+
+/*--- ACCOUNT ---*/
+#account_pages .container h2{font-size:26px; margin-bottom:26px}
+#account_pages #checkout_processbar{display:none}
+
+/*Dashboard*/
+#acc_l_col,#acc_r_col{float:none; width:100%}
+/*#acc_info,*/#acc_stack_opt,#acc_newsletter{display:none}
+.ord_hist_tables{width:100%}
+#account_pages #account_summary p,.ord_hist_tables{color:#000}
+
+
+
+
+/*--- INVOICE (order details) ---*/
+.invoice_addresses{padding:10px 0}
+.invoice_addresses > div{width:32%; margin-right:1%}
+
+.invoice_order, .invoice_addresses,
+.invoice_order h3, .invoice_addresses h3,
+#account_pages .container .invoice_order h3, 
+#account_pages .container .invoice_addresses h3,
+.shopping_cart tbody tr.cart_type_capt td
+{color:#000}
+
+.shopping_cart .cart_package{color:#666}

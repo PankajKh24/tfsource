@@ -1,0 +1,28 @@
+#bubble{height:auto}
+#main_menu > li > a{width:84px}
+
+#multys{z-index:400}
+#logos img{zoom:1}
+#logos li.last{float:none; clear:left; display:block}
+
+.paging .numb_links{display:inline}
+#breadcrumb li{padding-right:20px}
+.page_sort_form{background:#EDEDED}
+
+
+#qty_holder{float:left; position:relative}
+#qty_holder label{position:absolute; left:0; top:0}
+.price_buying .spinner{position:absolute; left:52px; top:2px; width:80px}
+.price_buying .spinner #qty{float:left; padding:0; border-width:0}
+
+.price_form .price_crossale .bonus_prod{float:left}
+#bonus_blocks form{padding-bottom:45px}
+.price_form .price_bonus img{display:block; float:left}
+.price_form .price_bonus div{zoom:1}
+
+.qty_update_btn{color:#fff}
+
+.thumb_nav, .thumbnails{zoom:1; height:78px}
+.thumbnails a{height:75px; zoom:1}
+
+.cart_tools a{display:block}
